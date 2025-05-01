@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DLC Digital Literacy Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chat-header">
+      <h2> DLC GuideBot</h2>
+      <p>Ask me about WhatsApp, Paytm, Google Maps and more!</p>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <div class="bot-message">
+        <p>👋 I'm here to help you learn digital tools. Try asking:</p>
+        <div class="quick-replies">
+          <button class="quick-reply" data-question="How to send a photo on WhatsApp?">WhatsApp Photo</button>
+          <button class="quick-reply" data-question="How to pay via Paytm?">Paytm Payment</button>
+          <button class="quick-reply" data-question="How to find location on Google Maps?">Google Maps</button>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your question...">
+      <button id="send-button"><i class="em em-rocket" aria-role="presentation"></i></button>
+      <button id="voice-button"><i class="em em-microphone" aria-role="presentation"></i></button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

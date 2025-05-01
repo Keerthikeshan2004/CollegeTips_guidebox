@@ -1,0 +1,29 @@
+{
+    "faqs": [
+      {
+        "category": "WhatsApp",
+        "questions": [
+          {
+            "question": "How to send a photo on WhatsApp?",
+            "answer": "1. Open WhatsApp 📱\n2. Tap the 📷 icon in a chat\n3. Choose a photo or take a new one\n4. Press SEND ✔️",
+            "keywords": ["photo", "picture", "image", "send"]
+          },
+          {
+            "question": "How to create a WhatsApp group?",
+            "answer": "1. Open WhatsApp → Tap New Group 👥\n2. Select contacts → Tap Next\n3. Set group name & photo → Tap Create",
+            "keywords": ["group", "create", "make"]
+          }
+        ]
+      },
+      {
+        "category": "Paytm",
+        "questions": [
+          {
+            "question": "How to pay via Paytm?",
+            "answer": "1. Open Paytm 💰\n2. Tap 'Pay' or scan QR code\n3. Enter amount & UPI PIN\n4. Confirmation will appear! ✅",
+            "keywords": ["pay", "payment", "send money"]
+          }
+        ]
+      }
+    ]
+  }
